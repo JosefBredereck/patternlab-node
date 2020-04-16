@@ -21,6 +21,7 @@ module.exports = {
   extends: ['eslint-config-prettier'].map(require.resolve),
   rules: {
     'prettier/prettier': 'error',
+    allowParens: true,
     'block-scoped-var': 0,
     camelcase: 0,
     'consistent-return': 2,
